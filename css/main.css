@@ -1,0 +1,62 @@
+:root{
+    --bs-primary: #C78C06;
+    --bs-primary-dark: #b17e06;
+    --bs-primary-dark-rgb: rgb(177, 126, 6);
+    --bs-primary-rgb: 199, 140, 6;
+    --bs-secondary: #FFE6AC;
+    --bs-secondary-rgb: 255, 230, 172;
+    --bs-dark: #222;
+    --bs-dark-rgb: 34, 34, 34;
+    --bs-blue: #C78C06;
+  }
+  /* x-x-x-x-x Top Nav x-x-x-x-x */
+  
+  .navbar-nav .nav-link,
+  .navbar-nav .nav-link:link,
+  .navbar-nav .nav-link:visited{
+    color: var(--bs-primary);
+  }
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link.active{
+    background-color: var(--bs-primary);
+    color: var(--bs-dark);
+  }
+  /* Navigation form */
+  .btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-color: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+  }
+  
+  /* x-x-x-x-x Banner x-x-x-x-x */
+  .banner{
+    background: var(--bs-dark) url(../images/1-3back.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary-dark);
+    --bs-btn-hover-border-color: var(--bs-primary-dark);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+  }
+  
+  /* x-x-x-x-x Vision Section x-x-x-x-x */
+  .vision{
+    background: var(--bs-dark) url(../images/1-2back.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  /* x-x-x-x-x Defaults x-x-x-x-x */
+  a{
+    color: inherit;
+  }
