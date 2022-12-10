@@ -1,13 +1,13 @@
 :root{
-    --bs-primary: #C78C06;
-    --bs-primary-dark: #b17e06;
-    --bs-primary-dark-rgb: rgb(177, 126, 6);
-    --bs-primary-rgb: 199, 140, 6;
-    --bs-secondary: #FFE6AC;
+    --bs-primary: #52baee;
+    --bs-primary-dark: #f2a8ec;
+    --bs-primary-dark-rgb: rgb(58, 229, 235);
+    --bs-primary-rgb: rgb(58, 229, 235) ;
+    --bs-secondary: #6c757d;
     --bs-secondary-rgb: 255, 230, 172;
-    --bs-dark: #222;
-    --bs-dark-rgb: 34, 34, 34;
-    --bs-blue: #C78C06;
+    --bs-dark: rgb(99, 90, 90);
+    --bs-dark-rgb: #ee70e8;
+    --bs-blue: #4473d1;
   }
   /* x-x-x-x-x Top Nav x-x-x-x-x */
   
