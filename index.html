@@ -20,7 +20,7 @@
     <header role="banner" class="navbar navbar-expand-lg navbar-light bg-secondary">
         <div class="container-xl ">
             <a class="navbar-brand text-block" href="#">
-            <h1 role="heading" class="animate__animated animate__flash">
+            <h1 role="heading" class="animate__animated animate__swing">
                 Xuefeng WANG
             </h1></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +48,33 @@
         <header role="banner" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/1-2back.jpg" class="d-block w-100" alt="...">
+                    <picture>
+                        <source srcset="./images/picture/1-2back-960_x_444.jpg,
+                        ./images/picture/1-2back-1440_x_666.jpg 1.5x,
+                        ./images/picture/1-2back-1920_x_888.jpg 2x"
+                         media="(min-width: 640px)"/>
+    
+                        <source srcset="./images/picture/1-2back-640_x_640.jpg,
+                        ./images/picture/1-2back-960_x_960.jpg 1.5x,
+                        ./images/picture/1-2back-1440_x_1440.jpg 2x"
+                         media="(min-width: 480px)"/>
+    
+                        <source srcset="./images/picture/1-2back-480_x_480.jpg,
+                        ./images/picture/1-2back-720_x_720.jpg 1.5x,
+                        ./images/picture/1-2back-960_x_960.jpg 2x,
+                        ./images/picture/1-2back-1440_x_1440.jpg 3x"
+                        media="min-width: 320px)" />
+    
+                        <source srcset="./images/picture/1-2back-320_x_147.jpg,
+                        ./images/picture/1-2back-480_x_222.jpg 1.5x,
+                        ./images/picture/1-2back-640_x_296.jpg 2x,
+                        ./images/picture/1-2back-960_x_444.jpg 3x"
+                        media="(max-width: 319px)" />
+
+                        <img src="./images/picture/1-2back-960_x_444.jpg" class="d-block w-100 orig-img" alt="banner image...">
+                    </picture>
+                   
+
                     <div class="carousel-caption">
                         <h2>Welcome to my website</h2>
                         <h3>Showing my skills, looking forward to working with you!</h3>
@@ -62,7 +88,13 @@
                     <div class="col-12 text-success"><h2>Skills</h2></div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card" >
-                            <img src="./images/1html.jpg" class="card-img-top" alt="html...">
+                            <img 
+                            srcset="./images/1html-480_x_340.jpg 480w,
+                                   ./images/1html.jpg 960w"
+                            sizes="(max-width: 480px) 480px,
+                                  (max-width: 960px) 960px"
+                            src="./images/1html.jpg" 
+                            class="card-img-top" alt="html...">
                             <div class="card-body">
                                 <p class="card-text">Proficient in HTML, CSS, JS, independently design and create responsive web pages, using WordPress, durpal and shopify content management platforms.</p>
                             </div>
@@ -70,7 +102,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                            <img src="./images/2css.jpg" class="card-img-top" alt="css...">
+                            <img 
+                            srcset="./images/2css-480_x_340.jpg 480w,
+                                    ./images/2css.jpg 960w"
+                            sizes="(max-width: 480px) 480px,
+                                    (max-width: 960px) 960px"
+                            src="./images/2css.jpg" 
+                            class="card-img-top" alt="css...">
                             <div class="card-body">
                                 <p class="card-text">Proficient in HTML, CSS, JS, independently design and create responsive web pages, using WordPress, durpal and shopify content management platforms.</p>
                             </div>
@@ -78,7 +116,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                            <img src="./images/3js.jpg" class="card-img-top" alt="javascript...">
+                            <img 
+                            srcset="./images/3js-480_x_340.jpg 480w,
+                                    ./images/3js.jpg 960w"
+                            sizes="(max-width: 480px) 480px,
+                                    (max-width: 960px) 960px"
+                            src="./images/3js.jpg" 
+                            class="card-img-top" alt="javascript...">
                             <div class="card-body">
                                 <p class="card-text">Proficient in HTML, CSS, JS, independently design and create responsive web pages, using WordPress, durpal and shopify content management platforms.</p>
                             </div>
@@ -86,7 +130,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                            <img src="./images/4ps.png" class="card-img-top" alt="adobe ps...">
+                            <img
+                            srcset="./images/4ps-480_x_340.png 480w,
+                                    ./images/4ps.png 960w"
+                            sizes="(max-width: 480px) 480px,
+                                    (max-width: 960px) 960px" 
+                            src="./images/4ps.png" 
+                            class="card-img-top" alt="adobe ps...">
                             <div class="card-body">
                                 <p class="card-text">Proficiency in using adobe series software, including PS, AI, XD, PR, etc. In my work display you will be able to see my related works. These skills are well combined with practical work experience to create works that satisfy customers.</p>
                             </div>
@@ -95,7 +145,13 @@
 
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                            <img src="./images//5ai.jpg" class="card-img-top" alt="adobe ai...">
+                            <img
+                            srcset="./images/5ai-480_x_340.jpg 480w,
+                                    ./images/5ai.jpg 960w"
+                            sizes="(max-width: 480px) 480px,
+                                    (max-width: 960px) 960px" 
+                            src="./images/5ai.jpg" 
+                            class="card-img-top" alt="adobe ai...">
                             <div class="card-body">
                                 <p class="card-text">Proficiency in using adobe series software, including PS, AI, XD, PR, etc. In my work display you will be able to see my related works. These skills are well combined with practical work experience to create works that satisfy customers.</p>
                             </div>
@@ -103,7 +159,13 @@
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
-                            <img src="./images/6xd.jpg" class="card-img-top" alt="adobe xd...">
+                            <img 
+                            srcset="./images/6xd-480_x_340.jpg 480w,
+                                    ./images/6xd.jpg 960w"
+                            sizes="(max-width: 480px) 480px,
+                                    (max-width: 960px) 960px"
+                            src="./images/6xd.jpg" 
+                            class="card-img-top" alt="adobe xd...">
                             <div class="card-body">
                                 <p class="card-text">Proficiency in using adobe series software, including PS, AI, XD, PR, etc. In my work display you will be able to see my related works. These skills are well combined with practical work experience to create works that satisfy customers.</p>
                             </div>
