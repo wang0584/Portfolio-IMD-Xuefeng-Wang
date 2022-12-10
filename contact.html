@@ -17,17 +17,17 @@
     <link rel="stylesheet"  href="./css/main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <header role="banner" class="navbar navbar-expand-lg navbar-light bg-secondary">
         <div class="container-xl ">
             <a class="navbar-brand text-block" href="./">
-                <h1 class="animate__animated animate__flash">
+                <h1 role="heading" class="animate__animated animate__flash">
                     Xuefeng WANG
                 </h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <nav role="navigation" class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav gap-5">
                     <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./"><i class="bi bi-house h5 me-2"></i>Home</a>
@@ -45,8 +45,8 @@
             </nav>
         </div>
     </header>
-    <main>
-        <header id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <main role="main">
+        <header role="banner" id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./images/1-3back.jpg" class="d-block w-100" alt="...">
@@ -62,13 +62,13 @@
                 <form action="#">
                     <div class="row">
                         <h4 class="mb-5 text-success">Don't hesitate to contact me!</h4>
-                    <div class="col-12 col-lg-6 form-floating mb-3 ">
+                    <div class="col-12 col-lg-6 form-floating mb-3" itemscope itemtype="https://schema.org/Person">
                         <input type="text" class="form-control" id="name" placeholder="name">
-                        <label for="name">Name:</label>
+                        <label for="name" itemprop="name">Name:</label>
                     </div>                
-                    <div class="col-12 col-lg-6 form-floating mb-3">
+                    <div class="col-12 col-lg-6 form-floating mb-3" itemtype="https://schema.org/Person">
                         <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address:</label>
+                        <label for="floatingInput" itemprop="email">Email address:</label>
                     </div>
                     <div class="col-12 col-lg-6 form-floating mb-3">
                         <input type="phone" class="form-control" id="phone" placeholder="phone">
@@ -88,7 +88,7 @@
             </div>
         </section>
     </main>
-    <footer class="bg-secondary">
+    <footer role="contentinfo" class="bg-secondary">
         <div class="container pt-3 pb-3">
             <div class="row">
                 <div class="col col-12 col-lg-6">
